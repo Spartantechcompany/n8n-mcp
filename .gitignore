@@ -71,6 +71,7 @@ tmp/
 
 # Database files
 data/*.db
+!data/nodes.db
 data/*.db-journal
 data/*.db.bak
 !data/.gitkeep
