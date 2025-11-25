@@ -1,0 +1,7 @@
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile.railway-debug"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 30
